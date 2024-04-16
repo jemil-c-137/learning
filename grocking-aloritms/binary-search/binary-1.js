@@ -19,9 +19,3 @@ function findNumber(number, array) {
 
     return findNumber(number, newArray);
 }
-
-const arr = Array.from({length: 100}, (_, i) => i + 1)
-
-console.log(arr)
-
-findNumber(51, arr);
